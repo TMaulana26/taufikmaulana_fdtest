@@ -29,7 +29,7 @@ This repository contains my submission for the Fullstack Developer Technical Tes
 
 ## Prerequisites
 
-- PHP >= 8.1
+- PHP >= 8.3
 - Composer
 - PostgreSQL
 - Node.js & NPM
@@ -39,7 +39,7 @@ This repository contains my submission for the Fullstack Developer Technical Tes
 
 1. Clone the repository:
 ```bash
-git clone [your-repository-url] taufikmaulana_fdtest
+git clone https://github.com/TMaulana26/taufikmaulana_fdtest.git taufikmaulana_fdtest
 cd taufikmaulana_fdtest
 ```
 
@@ -65,7 +65,7 @@ php artisan key:generate
 DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
 DB_PORT=5432
-DB_DATABASE=[your-name]_fdtest
+DB_DATABASE=taufikmaulana_fdtest
 DB_USERNAME=your_username
 DB_PASSWORD=your_password
 
